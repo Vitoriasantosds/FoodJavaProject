@@ -1,0 +1,174 @@
+/* =============================================
+   FoodJava — Estilo global
+   ============================================= */
+.root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f5f5f5;
+}
+
+/* --- Cabeçalho -------------------------------- */
+.header-bar {
+    -fx-background-color: #e74c3c;
+    -fx-padding: 14 20 14 20;
+}
+.header-bar .label {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* --- Botões ----------------------------------- */
+.btn-primary {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 22 10 22;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+.btn-primary:hover   { -fx-background-color: #c0392b; }
+.btn-primary:pressed { -fx-background-color: #a93226; }
+
+.btn-secondary {
+    -fx-background-color: #7f8c8d;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 9 18 9 18;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-secondary:hover { -fx-background-color: #636e72; }
+
+.btn-success {
+    -fx-background-color: #27ae60;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-success:hover { -fx-background-color: #1e8449; }
+
+.btn-danger {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-danger:hover { -fx-background-color: #c0392b; }
+
+.btn-warning {
+    -fx-background-color: #e67e22;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-warning:hover { -fx-background-color: #ca6f1e; }
+
+.btn-info {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.btn-info:hover { -fx-background-color: #1a6fa0; }
+
+/* --- Campos de texto -------------------------- */
+.text-field, .password-field, .combo-box {
+    -fx-padding: 9 10 9 10;
+    -fx-border-color: #d0d3d4;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 13px;
+    -fx-background-color: white;
+}
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #e74c3c;
+}
+
+/* --- Card de item ----------------------------- */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.09), 6, 0, 0, 2);
+    -fx-padding: 14;
+}
+
+/* --- Labels tipográficos ---------------------- */
+.titulo-secao {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+.subtitulo {
+    -fx-font-size: 13px;
+    -fx-text-fill: #7f8c8d;
+}
+.label-preco {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e74c3c;
+}
+.label-nome-item {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* --- Barra de rodapé / resumo ----------------- */
+.barra-resumo {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 10 20 10 20;
+}
+.barra-resumo .label {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+/* --- Painel lateral do carrinho --------------- */
+.painel-carrinho {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 14;
+}
+
+/* --- TableView -------------------------------- */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.table-view .column-header-background {
+    -fx-background-color: #f0f0f0;
+}
+.table-row-cell:odd  { -fx-background-color: #fafafa; }
+.table-row-cell:even { -fx-background-color: white;   }
+.table-row-cell:selected { -fx-background-color: #fadbd8; }
+
+/* --- ScrollPane ------------------------------- */
+.scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+/* --- Separador -------------------------------- */
+.separator { -fx-padding: 4 0 4 0; }
+
+/* --- CheckBox --------------------------------- */
+.check-box { -fx-font-size: 13px; }
+.check-box:selected .mark { -fx-background-color: #e74c3c; }
+
+/* --- ComboBox --------------------------------- */
+.combo-box .list-cell { -fx-font-size: 13px; }

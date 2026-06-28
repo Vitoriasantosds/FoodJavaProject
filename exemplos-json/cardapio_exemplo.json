@@ -1,0 +1,67 @@
+{
+  "cardapio": [
+    {
+      "nome": "Caldo de Feijão",
+      "descricao": "Caldo temperado com linguiça e couve",
+      "preco": 12.50,
+      "categoria": "ENTRADA",
+      "disponivel": true
+    },
+    {
+      "nome": "Carne de Sol Acebolada",
+      "descricao": "Carne de sol grelhada com cebola e manteiga de garrafa",
+      "preco": 28.90,
+      "categoria": "ENTRADA",
+      "disponivel": true
+    },
+    {
+      "nome": "Baião de Dois",
+      "descricao": "Arroz com feijão-verde, queijo coalho, carne-seca e manteiga",
+      "preco": 38.90,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Galinha Caipira",
+      "descricao": "Galinha caipira ao molho pardo com macaxeira cozida",
+      "preco": 42.00,
+      "categoria": "PRATO_PRINCIPAL",
+      "disponivel": true
+    },
+    {
+      "nome": "Mungunzá",
+      "descricao": "Sobremesa típica nordestina com milho, coco e leite condensado",
+      "preco": 10.00,
+      "categoria": "SOBREMESA",
+      "disponivel": true
+    },
+    {
+      "nome": "Cartola",
+      "descricao": "Banana frita com queijo coalho e canela",
+      "preco": 14.00,
+      "categoria": "SOBREMESA",
+      "disponivel": true
+    },
+    {
+      "nome": "Suco de Umbu",
+      "descricao": "Suco natural de umbu gelado (500ml)",
+      "preco": 8.00,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    },
+    {
+      "nome": "Suco de Tamarindo",
+      "descricao": "Suco natural de tamarindo (400ml)",
+      "preco": 7.50,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    },
+    {
+      "nome": "Água Mineral",
+      "descricao": "Garrafa 500ml com ou sem gás",
+      "preco": 3.50,
+      "categoria": "BEBIDAS",
+      "disponivel": true
+    }
+  ]
+}
