@@ -1,0 +1,13 @@
+{
+  "nome": "Arretado de Bom",
+  "cnpj": "01.197.223/0001-53",
+  "endereco": "Avenida Olímpio Gomes, 93",
+  "telefone": "8333512526",
+  "categoriaCulinaria": "Nordestina",
+  "email": "gerente.arretadodebom@gmail.com",
+  "gerente": {
+    "nome": "Vitória Santos",
+    "email": "gerente.arretadodebom@gmail.com",
+    "senha": "Gerente_2026"
+  }
+}

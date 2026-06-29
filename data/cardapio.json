@@ -1,0 +1,91 @@
+[
+  {
+    "id": "2b17438f-0f7a-4920-ba48-006add71dc53",
+    "nome": "Caldo de Feijão",
+    "descricao": "Caldo temperado com linguiça e couve",
+    "preco": 12.5,
+    "categoria": "ENTRADA",
+    "disponivel": true
+  },
+  {
+    "id": "6e428569-10b6-455b-8a2b-43d30c8b39f0",
+    "nome": "Carne de Sol Acebolada",
+    "descricao": "Carne de sol grelhada com cebola e manteiga de garrafa",
+    "preco": 28.9,
+    "categoria": "ENTRADA",
+    "disponivel": true
+  },
+  {
+    "id": "780a0933-a396-4770-bb62-832442441bcc",
+    "nome": "Baião de Dois",
+    "descricao": "Arroz com feijão-verde, queijo coalho, carne-seca e manteiga",
+    "preco": 38.9,
+    "categoria": "PRATO_PRINCIPAL",
+    "disponivel": true
+  },
+  {
+    "id": "9748738f-fd64-4f45-bf9a-f5006f27469d",
+    "nome": "Galinha Caipira",
+    "descricao": "Galinha caipira ao molho pardo com macaxeira cozida",
+    "preco": 42.0,
+    "categoria": "PRATO_PRINCIPAL",
+    "disponivel": true
+  },
+  {
+    "id": "c493d218-9873-4bae-9b3d-f9956cf837d2",
+    "nome": "Mungunzá",
+    "descricao": "Sobremesa típica nordestina com milho, coco e leite condensado",
+    "preco": 10.0,
+    "categoria": "SOBREMESA",
+    "disponivel": true
+  },
+  {
+    "id": "fa2680c4-af60-4a38-97c6-d009b1530a52",
+    "nome": "Cartola",
+    "descricao": "Banana frita com queijo coalho e canela",
+    "preco": 14.0,
+    "categoria": "SOBREMESA",
+    "disponivel": true
+  },
+  {
+    "id": "63091300-3bc9-4259-a058-a9a02d3b5b90",
+    "nome": "Suco de Umbu",
+    "descricao": "Suco natural de umbu gelado (500ml)",
+    "preco": 8.0,
+    "categoria": "BEBIDAS",
+    "disponivel": true
+  },
+  {
+    "id": "72c682c6-f5af-4700-8612-816ce62ff95d",
+    "nome": "Suco de Tamarindo",
+    "descricao": "Suco natural de tamarindo (400ml)",
+    "preco": 7.5,
+    "categoria": "BEBIDAS",
+    "disponivel": true
+  },
+  {
+    "id": "5345a605-51c8-4e85-9440-c0eff8dc58d6",
+    "nome": "Água Mineral",
+    "descricao": "Garrafa 500ml com ou sem gás",
+    "preco": 3.5,
+    "categoria": "BEBIDAS",
+    "disponivel": true
+  },
+  {
+    "id": "86676dea-aec6-4a26-a6ba-b0c198091ccd",
+    "nome": "Escondidinho de Carne Seca",
+    "descricao": "Purê de macaxeira recheado com carne seca",
+    "preco": 29.9,
+    "categoria": "PRATO_PRINCIPAL",
+    "disponivel": true,
+    "imagemPath": "G:\\Meu Drive\\IFPB\\ADS\\2° Período\\POO\\Projeto Final\\FoodJava\\src\\main\\resources\\images\\escondidinho-de-carne-seca.webp"
+  },
+  {
+    "id": "cc8b756f-0768-4538-a44e-4bf6f505dd00",
+    "nome": "Lasanha Bolonhesa",
+    "descricao": "Massa acompanhada de molho bolonhesa e bechamel",
+    "preco": 24.9,
+    "categoria": "PRATO_PRINCIPAL",
+    "disponivel": true
+  }
+]
