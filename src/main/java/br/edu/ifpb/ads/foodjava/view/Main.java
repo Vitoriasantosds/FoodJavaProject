@@ -1,4 +1,4 @@
-package br.edu.ifpb.ads.foodjava;
+package br.edu.ifpb.ads.foodjava.view;
 
 import br.edu.ifpb.ads.foodjava.repository.RestauranteRepository;
 import javafx.application.Application;

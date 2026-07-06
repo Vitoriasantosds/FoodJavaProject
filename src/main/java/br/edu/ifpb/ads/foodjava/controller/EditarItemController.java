@@ -1,6 +1,5 @@
-package br.edu.ifpb.ads.foodjava.view.fxml;
+package br.edu.ifpb.ads.foodjava.controller;
 
-import br.edu.ifpb.ads.foodjava.controller.CardapioController;
 import br.edu.ifpb.ads.foodjava.model.Categoria;
 import br.edu.ifpb.ads.foodjava.model.ItemCardapio;
 import br.edu.ifpb.ads.foodjava.util.UI;

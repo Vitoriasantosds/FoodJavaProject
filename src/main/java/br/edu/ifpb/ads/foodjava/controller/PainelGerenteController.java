@@ -1,7 +1,6 @@
-package br.edu.ifpb.ads.foodjava.view.fxml;
+package br.edu.ifpb.ads.foodjava.controller;
 
-import br.edu.ifpb.ads.foodjava.Main;
-import br.edu.ifpb.ads.foodjava.controller.PedidoController;
+import br.edu.ifpb.ads.foodjava.view.Main;
 import br.edu.ifpb.ads.foodjava.model.Gerente;
 import br.edu.ifpb.ads.foodjava.model.ItemPedido;
 import br.edu.ifpb.ads.foodjava.model.Pedido;

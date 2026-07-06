@@ -1,7 +1,6 @@
-package br.edu.ifpb.ads.foodjava.view.fxml;
+package br.edu.ifpb.ads.foodjava.controller;
 
-import br.edu.ifpb.ads.foodjava.Main;
-import br.edu.ifpb.ads.foodjava.controller.RestauranteController;
+import br.edu.ifpb.ads.foodjava.view.Main;
 import br.edu.ifpb.ads.foodjava.util.UI;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;

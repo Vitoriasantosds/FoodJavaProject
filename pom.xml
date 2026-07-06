@@ -40,7 +40,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>br.edu.ifpb.ads.foodjava.Main</mainClass>
+                    <mainClass>br.edu.ifpb.ads.foodjava.view.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
