@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.edu.ifpb.ads.foodjava.controller.fxml.LoginController"
+            stylesheets="@../css/estilo.css"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Cabeçalho -->
+    <top>
+        <HBox styleClass="header-bar" alignment="CENTER_LEFT">
+            <Label text="🍴 FoodJava"/>
+        </HBox>
+    </top>
+
+    <!-- Formulário centralizado -->
+    <center>
+        <StackPane>
+            <VBox spacing="14" maxWidth="340" alignment="CENTER">
+                <padding><Insets top="40" right="60" bottom="40" left="60"/></padding>
+
+                <Label text="Acessar sistema" styleClass="titulo-secao"
+                       style="-fx-font-size: 20px;"/>
+
+                <Separator/>
+
+                <TextField     fx:id="tfEmail" promptText="E-mail"  styleClass="text-field"/>
+                <PasswordField fx:id="tfSenha" promptText="Senha"   styleClass="password-field"/>
+
+                <Button text="Entrar" styleClass="btn-primary" maxWidth="Infinity"
+                        onAction="#entrar"/>
+                <Button text="Criar conta (cliente)" styleClass="btn-secondary" maxWidth="Infinity"
+                        onAction="#irParaCadastro"/>
+            </VBox>
+        </StackPane>
+    </center>
+</BorderPane>

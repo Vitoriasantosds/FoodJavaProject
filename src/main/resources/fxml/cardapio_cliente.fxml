@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="br.edu.ifpb.ads.foodjava.controller.fxml.CardapioClienteController"
+            stylesheets="@../css/estilo.css"
+            prefWidth="800" prefHeight="600">
+
+    <!-- Cabeçalho -->
+    <top>
+        <HBox styleClass="header-bar" alignment="CENTER_LEFT" spacing="10">
+            <Label fx:id="lblNomeRestaurante" text="🍴 FoodJava  —  Cardápio"/>
+            <Region HBox.hgrow="ALWAYS"/>
+            <Label fx:id="lblNomeCliente" text="Cliente" styleClass="subtitulo"
+                   style="-fx-text-fill: rgba(255,255,255,0.85);"/>
+            <Button text="Meus Pedidos" styleClass="btn-secondary" onAction="#verHistorico"/>
+            <Button text="Sair"         styleClass="btn-secondary" onAction="#sair"/>
+        </HBox>
+    </top>
+
+    <!-- Cardápio (centro) -->
+    <center>
+        <ScrollPane fitToWidth="true" styleClass="scroll-pane">
+            <VBox fx:id="boxCardapio" spacing="20">
+                <padding><Insets top="20" right="16" bottom="20" left="20"/></padding>
+                <!-- Categorias e itens são inseridos dinamicamente pelo controller -->
+            </VBox>
+        </ScrollPane>
+    </center>
+
+    <!-- Painel Carrinho (direita) -->
+    <right>
+        <VBox styleClass="painel-carrinho" spacing="10" minWidth="260" maxWidth="260">
+
+            <Label text="🛒 Carrinho" styleClass="titulo-secao"/>
+            <Separator/>
+
+            <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS" styleClass="scroll-pane">
+                <VBox fx:id="boxCarrinho" spacing="8"/>
+            </ScrollPane>
+
+            <Separator/>
+            <Label fx:id="lblTotal" text="Total: R$ 0,00"
+                   style="-fx-font-size:15px; -fx-font-weight:bold; -fx-text-fill:#e74c3c;"/>
+            <Button text="Confirmar Pedido" styleClass="btn-primary" maxWidth="Infinity"
+                    onAction="#confirmarPedido"/>
+        </VBox>
+    </right>
+</BorderPane>

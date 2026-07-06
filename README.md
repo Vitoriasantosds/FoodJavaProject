@@ -8,11 +8,9 @@ Sistema de gerenciamento de pedidos para restaurante — Projeto Final de Progra
 
 ## 👥 Integrantes
 
-| Nome | Matrícula |
-|------|-----------|
-| _(preencher)_ | _(preencher)_ |
-| _(preencher)_ | _(preencher)_ |
-| _(preencher)_ | _(preencher)_ |
+| Nome                      | Matrícula      |
+|---------------------------|----------------|
+| _Vitória Santos da Silva_ | _202515020030_ |
 
 ---
 
@@ -26,7 +24,7 @@ Sistema de gerenciamento de pedidos para restaurante — Projeto Final de Progra
 ## ▶️ Como executar
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone <https://github.com/Vitoriasantosds/FoodJavaProject.git>
 cd FoodJava
 mvn javafx:run
 ```
@@ -89,7 +87,3 @@ Categorias válidas: `ENTRADA`, `PRATO_PRINCIPAL`, `SOBREMESA`, `BEBIDAS`
 | MVC + Repository | Model / FXML (View) / Controller de negócio / Repository |
 
 ---
-
-## 🚫 Restrições
-
-Sem Spring Boot, Hibernate ou banco de dados — persistência exclusivamente via JSON com Gson, conforme exigido pelo enunciado.

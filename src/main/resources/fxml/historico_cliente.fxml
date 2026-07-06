@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="br.edu.ifpb.ads.foodjava.controller.fxml.HistoricoClienteController"
+      stylesheets="@../css/estilo.css"
+      prefWidth="800" prefHeight="600" spacing="0">
+
+    <HBox styleClass="header-bar" alignment="CENTER_LEFT" spacing="10">
+        <Label text="🍴 FoodJava  —  Meus Pedidos"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Button text="← Voltar ao Cardápio" styleClass="btn-secondary" onAction="#voltarCardapio"/>
+    </HBox>
+
+    <ScrollPane fitToWidth="true" VBox.vgrow="ALWAYS" styleClass="scroll-pane">
+        <VBox fx:id="boxPedidos" spacing="14">
+            <padding><Insets top="20" right="20" bottom="20" left="20"/></padding>
+            <!-- Cards de pedido inseridos dinamicamente -->
+        </VBox>
+    </ScrollPane>
+</VBox>

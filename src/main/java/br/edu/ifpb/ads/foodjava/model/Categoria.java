@@ -1,0 +1,17 @@
+package br.edu.ifpb.ads.foodjava.model;
+
+public enum Categoria {
+    ENTRADA("Entrada"),
+    PRATO_PRINCIPAL("Prato Principal"),
+    SOBREMESA("Sobremesa"),
+    BEBIDAS("Bebidas");
+
+    private final String descricao;
+
+    Categoria(String descricao) { this.descricao = descricao; }
+
+    public String getDescricao() { return descricao; }
+
+    @Override
+    public String toString() { return descricao; }
+}
