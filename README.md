@@ -8,9 +8,12 @@ Sistema de gerenciamento de pedidos para restaurante — Projeto Final de Progra
 
 ## 👥 Integrantes
 
-| Nome                      | Matrícula      |
-|---------------------------|----------------|
-| _Vitória Santos da Silva_ | _202515020030_ |
+| Nome | Matrícula |
+|------|-----------|
+| _(preencher)_ | _(preencher)_ |
+| _(preencher)_ | _(preencher)_ |
+| _(preencher)_ | _(preencher)_ |
+
 ---
 
 ## ⚙️ Pré-requisitos
@@ -23,7 +26,7 @@ Sistema de gerenciamento de pedidos para restaurante — Projeto Final de Progra
 ## ▶️ Como executar
 
 ```bash
-git clone <https://github.com/Vitoriasantosds/FoodJavaProject.git>
+git clone <URL_DO_REPOSITORIO>
 cd FoodJava
 mvn javafx:run
 ```
@@ -48,7 +51,8 @@ mvn javafx:run
 src/main/java/br/edu/ifpb/ads/foodjava/
 ├── Main.java
 ├── model/          # Entidades: Usuario (abstrata), Gerente, Cliente, Pedido, ItemCardapio...
-├── controller/     # Lógica de negócio (AuthController, PedidoController...) e Controllers das telas FXML
+├── controller/     # Lógica de negócio (AuthController, PedidoController...)
+│   └── fxml/       # Controllers das telas FXML
 ├── repository/     # Persistência em JSON com Gson
 ├── exception/      # 9 exceções personalizadas
 └── util/           # Validador (CPF/CNPJ), Sessao, UI, Caminhos
@@ -56,7 +60,7 @@ src/main/java/br/edu/ifpb/ads/foodjava/
 src/main/resources/
 ├── fxml/           # Telas editáveis no Scene Builder
 ├── css/estilo.css
-└── images/
+└── images/placeholder.png
 ```
 
 ---
@@ -85,3 +89,7 @@ Categorias válidas: `ENTRADA`, `PRATO_PRINCIPAL`, `SOBREMESA`, `BEBIDAS`
 | MVC + Repository | Model / FXML (View) / Controller de negócio / Repository |
 
 ---
+
+## 🚫 Restrições
+
+Sem Spring Boot, Hibernate ou banco de dados — persistência exclusivamente via JSON com Gson, conforme exigido pelo enunciado.
